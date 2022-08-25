@@ -1,5 +1,5 @@
 {
-  "name": "simple-library",
+  "name": "@joaomoon/simple-library",
   "version": "1.0.0",
   "description": "",
   "main": "index.ts",
@@ -23,5 +23,8 @@
     "eslint": "^8.22.0",
     "prettier": "2.7.1",
     "typescript": "^4.7.4"
+  },
+  "publishConfig": {
+    "joaomoon:registry": "https://npm.pkg.github.com"
   }
 }
