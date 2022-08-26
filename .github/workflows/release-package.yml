@@ -1,8 +1,10 @@
 name: Node.js Package
 
 on:
-  release:
-    types: [created]
+  workflow_run:
+    workflows: ['New version']
+    types:
+      - completed
 
 jobs:
   publish-gpr:
