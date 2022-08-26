@@ -1,3 +1,4 @@
 import sum from './src/sum';
+import minus from './src/minus'
 
-export { sum };
+export { sum, minus };
